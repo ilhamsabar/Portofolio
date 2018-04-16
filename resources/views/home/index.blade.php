@@ -886,7 +886,7 @@
             <p class="lead">Tinggalkan pesan anda atau hubungi saya.</p>
 
         </div>
-    </div> <!-- /section-intro -->
+    </div> <!-- /section-intro  -->
 
     <div class="row contact-form">
 
