@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/07/2016, 9:42:23 AM
+    Author     : Developer
+*/
+
+body {
+
+}
+
+.page-header-content{
+    box-shadow: none;
+    border: none;
+}
+
+    .page-header, .panel, .form-control, .btn, .select, .select-xs, .uploader, .select2-choice, .selectbox-animated-jquery, .input-group{
+        border-radius: 0rem;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    .panel{
+        box-shadow: none;
+        border-color: #e5e5e5;
+        .panel-heading{
+            padding-top: 3rem;
+            .panel-title{
+                font-size: 1.35rem;
+                text-transform: uppercase;
+                vertical-align: middle;
+                color: #333;
+                font-weight: 500;
+                i.icon-store2, .icon-paragraph-left3, .icon-eye-plus, .icon-image-compare, .icon-cart{
+                    padding-bottom: 0.1rem;
+                    font-size: 1.7rem;
+                }
+            }
+        }
+
+        h6{
+            letter-spacing: normal !important;
+            font-size: 1.25rem;
+            color: #FF1654;
+            font-weight: 500;
+        }
+
+        .panel-body{
+            .panel-flat{
+                margin: 0;
+                box-shadow: none;
+                .panel-title{
+                    padding-top: 3rem;
+                    .label{
+
+                    }
+                    .title-item{
+                        text-transform: uppercase;
+                        opacity: .9;
+                        color: #5d4037;
+                        font-weight: 500;
+                        font-size: 1.33rem;
+                        padding-top: .2rem;
+                        letter-spacing: .03rem;
+                    }
+                }
+                .panel-body{
+                    .btn-block{
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+
+.panel-view-toko{
+    .panel-body{
+        padding: 0;
+        .profile-cover{
+            .media{
+                .media-body{
+                    h1{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .tabbable{
+            .nav-tabs{
+                li > a{
+                    text-transform: uppercase;
+                    font-size: 1.44rem;
+                    padding: 1.3rem 0;
+                    &:hover{
+                        color: #5d4037;
+                    }
+                }
+                li.active > a{
+                    background: #795548;
+                    border-bottom-color: #5d4037;
+                    color: #efebe9;
+                }
+            }
+            .tab-content{
+                padding: 2rem;
+                padding-top: 0;
+                .panel{
+                    box-shadow: none;
+                    border: none;
+
+                    .form-horizontal{
+                        legend{
+                            color: #5d4037;
+                        }
+                        .form-group{
+                            .control-label{}
+                            .form-control-feedback{
+                                i{
+                                    color: #4e342e;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.img-rounded{
+    border: 1px solid #f2f3f7;
+    border-radius: 0rem;
+}
+
+.label-icon-sm{
+    border-radius: 0rem;
+}
+
+
+
+.table-slider{
+    td{
+        .btn-group{
+            .label{
+                border-radius: 0rem;
+                font-size: 1.33rem;
+                background: #fff;
+                color: #757575;
+                border-color: #ddd;
+                padding: .4rem 1rem;
+                text-transform: capitalize;
+            }
+            .dropdown-menu{
+                box-shadow: none;
+                border-radius: 0rem;
+                li > a{
+                    padding: .4rem .8rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.panel{
+    .panel-body{
+        .table-responsive{
+            th, td {
+                .label{
+                    color: #fff;
+                    padding: 1.33rem;
+                }
+            }
+        }
+    }
+}

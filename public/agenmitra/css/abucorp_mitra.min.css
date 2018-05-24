@@ -1,0 +1,35 @@
+.navbar-brand img {
+    margin-top: -4px;
+    height: 28px
+}
+
+/*# sourceMappingURL=abucorp_mitra.min.css.map */
+
+.nav-tabs {
+    padding: 6px 3px !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.nav-tabs li a {
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+    border: 1px solid #eee !important;
+    background: #fff !important;
+    margin: 0 5px;
+}
+
+.nav-tabs li.active a {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    background: #2196F3 !important;
+}
+
+.nav-tabs li a:hover {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #f3f1f0;
+}

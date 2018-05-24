@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/08/2016, 5:04:12 PM
+    Author     : Developer
+*/
+
+html, body{
+    letter-spacing: normal !important;
+}
+
+
+
+
+
+.panel-adminToko{
+    background: #fff;
+    box-shadow: none;
+    border: none;
+
+    .panel-dash{
+        border-radius: 0rem;
+        box-shadow: none;
+        border: none;
+
+        .panel-body{
+            .chart-container{
+                opacity: .7 !important;
+                .c3-legend-item{
+
+                }
+            }
+        }
+    }
+}
+
+//
+.panel-list-produk{
+    box-shadow: none;
+    border-radius: 0rem;
+
+    .panel-body{
+        .table{
+            //
+            thead{
+                th{
+                    letter-spacing: normal !important;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+            }
+
+            //
+            tbody{
+                td{
+                    letter-spacing: normal;
+                    padding-right: 0px;
+                    text-transform: capitalize;
+                    color: #333;
+                    font-weight: 500;
+                    font-size: 13px;
+                    .list-condensed{
+                        li{
+                            font-size: 1.44rem;
+                        }
+                    }
+                }
+            }
+
+            td{
+                a{
+                    .img-circle{
+                        margin-bottom: 0.2rem;
+                    }
+                }
+            }
+        }
+
+        #modal_form_horizontal1, #modal_form_horizontal2{
+            .form-control{
+                border-radius: 0rem;
+            }
+
+            .modal-footer{
+                .btn{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+
+.content-login{
+    .form-horizontal{
+        .panel{
+            .form-group{
+                .btn-block{
+                    border-radius: 0rem;
+                }
+            }
+        }
+    }
+}
+
+
+.panel-heading{
+    .panel-title{
+        font-size: 1.35rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+        color: #333;
+        font-weight: 500;
+        i.icon-store2, .icon-paragraph-left3, .icon-eye-plus, .icon-image-compare, .icon-cart{
+            padding-bottom: 0.1rem;
+            font-size: 1.7rem;
+        }
+    }
+
+}
+
+.btn{
+    border-radius: 0rem;
+    font-size: 13px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius: 0rem;
+    &:focus{
+        border-color: #388e3c;
+    }
+    &:active{
+        border-color: #388e3c;
+    }
+
+}
+
+
+.panel, .panel-body, .panel-heading{
+    -moz-border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    border-radius: 0rem;
+
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel, .panel-body{
+    border: none;
+}
+
+.thumbnail, .thumb{
+    -moz-border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    border-radius: 0rem;
+
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

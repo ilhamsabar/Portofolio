@@ -90,11 +90,9 @@
     </div> <!-- /intro-content -->
 
     <ul class="intro-social">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://web.facebook.com/M.ilham.sabar" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="http://www.ilhamsabar.xyz" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="https://www.instagram.com/ilham_sabar" target="_blank"><i class="fa fa-instagram"></i></a></li>
     </ul> <!-- /intro-social -->
 
 </section> <!-- /intro -->
@@ -193,7 +191,7 @@
     <div class="row button-section">
         <div class="col-twelve">
             <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-            <a href="#" title="Download CV" class="button button-primary">Download CV</a>
+            <a href="{{asset('home/files/Curiculum ilham sabar.pdf')}}" title="Download CV" class="button button-primary">Download CV</a>
         </div>
     </div>
 
@@ -386,13 +384,13 @@
 
                 <div class="bgrid folio-item">
                     <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/liberty.jpg')}}" alt="Liberty">
+                        <img src="https://lh3.googleusercontent.com/Cb6R0kC9QHmnHYPl_LD9oANGiln422bs6rMu1E7TiQGxi8mycsaz0gp_ehYylvARVQ=w3360-h1952-rw" width="700" alt="Diet Sehat">
                         <a href="#modal-01" class="overlay">
                             <div class="folio-item-table">
                                 <div class="folio-item-cell">
-                                    <h3 class="folio-title">Liberty</h3>
+                                    <h3 class="folio-title">Diet Sehat</h3>
                                     <span class="folio-types">
-		     					       	  Graphic Design
+		     					       	  Apps Development
 		     					       </span>
                                 </div>
                             </div>
@@ -402,11 +400,11 @@
 
                 <div class="bgrid folio-item">
                     <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/shutterbug.jpg')}}" alt="Shutterbug">
+                        <img src="{{asset('home/images/portfolio/ranshealth.png')}}" alt="Rans Health">
                         <a href="#modal-02" class="overlay">
                             <div class="folio-item-table">
                                 <div class="folio-item-cell">
-                                    <h3 class="folio-title">Shutterbug</h3>
+                                    <h3 class="folio-title">Rans Health</h3>
                                     <span class="folio-types">
 		     					       	  Web Design
 		     					      </span>
@@ -418,43 +416,11 @@
 
                 <div class="bgrid folio-item">
                     <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/clouds.jpg')}}"alt="Clouds">
+                        <img src="{{asset('home/images/portfolio/qrs.png')}}"alt="Clouds">
                         <a href="#modal-03" class="overlay">
                             <div class="folio-item-table">
                                 <div class="folio-item-cell">
-                                    <h3 class="folio-title">Clouds</h3>
-                                    <span class="folio-types">
-		     					       	  Web Design
-		     					      </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> <!-- /folio-item -->
-
-                <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/beetle.jpg')}}" alt="Beetle">
-                        <a href="#modal-04" class="overlay">
-                            <div class="folio-item-table">
-                                <div class="folio-item-cell">
-                                    <h3 class="folio-title">Beetle</h3>
-                                    <span class="folio-types">
-		     					       	  Branding
-		     					      </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> <!-- /folio-item -->
-
-                <div class="bgrid folio-item">
-                    <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/lighthouse.jpg')}}" alt="Lighthouse">
-                        <a href="#modal-05" class="overlay">
-                            <div class="folio-item-table">
-                                <div class="folio-item-cell">
-                                    <h3 class="folio-title">Lighthouse</h3>
+                                    <h3 class="folio-title">QRS2 (Quick Response Supervising System)</h3>
                                     <span class="folio-types">
 		     					       	  Web Development
 		     					      </span>
@@ -466,13 +432,13 @@
 
                 <div class="bgrid folio-item">
                     <div class="item-wrap">
-                        <img src="{{asset('home/images/portfolio/salad.jpg')}}" alt="Salad">
-                        <a href="#modal-06" class="overlay">
+                        <img src="{{asset('home/images/portfolio/abutours.png')}}" alt="Beetle">
+                        <a href="#modal-04" class="overlay">
                             <div class="folio-item-table">
                                 <div class="folio-item-cell">
-                                    <h3 class="folio-title">Salad</h3>
+                                    <h3 class="folio-title">Abutours.com</h3>
                                     <span class="folio-types">
-		     					       	  Branding
+		     					       	  Web Development
 		     					      </span>
                                 </div>
                             </div>
@@ -480,23 +446,55 @@
                     </div>
                 </div> <!-- /folio-item -->
 
+                {{--<div class="bgrid folio-item">--}}
+                    {{--<div class="item-wrap">--}}
+                        {{--<img src="{{asset('home/images/portfolio/lighthouse.jpg')}}" alt="Lighthouse">--}}
+                        {{--<a href="#modal-05" class="overlay">--}}
+                            {{--<div class="folio-item-table">--}}
+                                {{--<div class="folio-item-cell">--}}
+                                    {{--<h3 class="folio-title">Lighthouse</h3>--}}
+                                    {{--<span class="folio-types">--}}
+		     					       	  {{--Web Development--}}
+		     					      {{--</span>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div> <!-- /folio-item -->--}}
+
+                {{--<div class="bgrid folio-item">--}}
+                    {{--<div class="item-wrap">--}}
+                        {{--<img src="{{asset('home/images/portfolio/salad.jpg')}}" alt="Salad">--}}
+                        {{--<a href="#modal-06" class="overlay">--}}
+                            {{--<div class="folio-item-table">--}}
+                                {{--<div class="folio-item-cell">--}}
+                                    {{--<h3 class="folio-title">Salad</h3>--}}
+                                    {{--<span class="folio-types">--}}
+		     					       	  {{--Branding--}}
+		     					      {{--</span>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div> <!-- /folio-item -->--}}
+
                 <!-- modal popups - begin
                 ============================================================= -->
                 <div id="modal-01" class="popup-modal slider mfp-hide">
 
                     <div class="media">
-                        <img src="{{asset('home/images/portfolio/modals/m-liberty.jpg')}}" alt="" />
+                        <center><img src="https://lh3.googleusercontent.com/QN0RQSGMPJDOMF5G-DUBsVREWk3H65zWbhlYsvFlhi_5Gg_eGbwFznYsnZO1VInj06M=w3360-h1952-rw" width="350" alt="" /></center>
                     </div>
 
                     <div class="description-box">
-                        <h4>Liberty</h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        <h4>Diet Sehat</h4>
+                        <p>Diet sehat merupakan aplikasi sistem pakar dalam menentukan menu diet yang sehat berdasarkan umur, jenis kelamin, golongan darah dan penyakit, untuk dapat menentukan kategori dan saran makanan yang cocok untuk melakukan proses diet. Selain itu diet sehat juga memiliki fitur monitoring dimana user akan di bimbing dalam melakukan proses diet, dimana user dapat mengatur sendiri jadwal sarapan, makan siang dan makan malamnya, selain itu user juga dapat membuat menu makan sendiri selain dari 5 menu makanan yang di sarankan </p>
 
-                        <div class="categories">Web Development</div>
+                        <div class="categories">Apps Development</div>
                     </div>
 
                     <div class="link-box">
-                        <a href="http://www.behance.net">Details</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.ilhamsabar.dietsehat" target="_blank">Details</a>
                         <a href="#" class="popup-modal-dismiss">Close</a>
                     </div>
 
@@ -505,18 +503,18 @@
                 <div id="modal-02" class="popup-modal slider mfp-hide">
 
                     <div class="media">
-                        <img src="{{asset('home/images/portfolio/modals/m-shutterbug.jpg')}}" alt="" />
+                        <img src="{{asset('home/images/portfolio/ranshealth.png')}}" alt="" />
                     </div>
 
                     <div class="description-box">
-                        <h4>Shutterbug</h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        <h4>Rans Health</h4>
+                        <p>Rans Health merupakan salah satu starup yang bergerak di bidang kesehatan yang mempertemukan antara tenaga medis dan pasien.</p>
 
                         <div class="categories">Web Design</div>
                     </div>
 
                     <div class="link-box">
-                        <a href="http://www.behance.net">Details</a>
+                        <a href="http://ranshealth.com/" target="_blank">Details</a>
                         <a href="#" class="popup-modal-dismiss">Close</a>
                     </div>
 
@@ -525,12 +523,12 @@
                 <div id="modal-03" class="popup-modal slider mfp-hide">
 
                     <div class="media">
-                        <img src="{{asset('home/images/portfolio/modals/m-clouds.jpg')}}" alt="" />
+                        <img src="{{asset('home/images/portfolio/qrs.png')}}" alt="" />
                     </div>
 
                     <div class="description-box">
-                        <h4>Clouds</h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        <h4>QRS2</h4>
+                        <p>Quick Response Supervising System merupakan sistem pelaporan dan penilaian sekolah dibawah naungan kementrian agama.</p>
 
                         <div class="categories">Web Design</div>
                     </div>
@@ -545,18 +543,18 @@
                 <div id="modal-04" class="popup-modal slider mfp-hide">
 
                     <div class="media">
-                        <img src="{{asset('home/images/portfolio/modals/m-beetle.jpg')}}" alt="" />
+                        <img src="{{asset('home/images/portfolio/abutours.png')}}" alt="" />
                     </div>
 
                     <div class="description-box">
-                        <h4>Beetle</h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        <h4>Abutours.com</h4>
+                        <p>Abutours.com merupakan salah satu perusahaan yang bergerak di bidang travel umroh dan haji. abutours.com juga mempunyai beberapa produk selain dari umroh, mulai dari penjulan tiket pesawat, Pulsa, Paket Data, Token Listrik, hingga BPJS kesehatan</p>
 
-                        <div class="categories">Branding</div>
+                        <div class="categories">Web Development</div>
                     </div>
 
                     <div class="link-box">
-                        <a href="http://www.behance.net">Details</a>
+                        <a href="http://www.abutours.com">Details</a>
                         <a href="#" class="popup-modal-dismiss">Close</a>
                     </div>
 
@@ -617,29 +615,29 @@
 
 <!-- CTA Section
 ================================================== -->
-<section id="cta" class="grey-section">
+{{--<section id="cta" class="grey-section">--}}
 
-    <div class="row cta-content">
+    {{--<div class="row cta-content">--}}
 
-        <div class="col-twelve section-ads">
+        {{--<div class="col-twelve section-ads">--}}
 
-            <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+            {{--<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>--}}
 
-            <p class="lead">
-                Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
-                <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
-            </p>
+            {{--<p class="lead">--}}
+                {{--Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.--}}
+                {{--Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.--}}
+                {{--<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->--}}
+            {{--</p>--}}
 
-            <div class="action">
-                <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
-            </div>
+            {{--<div class="action">--}}
+                {{--<a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>--}}
+            {{--</div>--}}
 
-        </div>
+        {{--</div>--}}
 
-    </div> <!-- /cta-content -->
+    {{--</div> <!-- /cta-content -->--}}
 
-</section> <!-- /cta -->
+{{--</section> <!-- /cta -->--}}
 
 
 <!-- services Section
@@ -995,11 +993,9 @@
         <div class="col-six tab-full pull-right social">
 
             <ul class="footer-social">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://web.facebook.com/M.ilham.sabar"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://www.ilhamsabar.xyz/"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="https://www.instagram.com/ilham_sabar"><i class="fa fa-instagram"></i></a></li>
             </ul>
 
         </div>
